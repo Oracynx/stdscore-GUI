@@ -18,3 +18,7 @@ anyhow = "1.0"
 rfd = "0.15"
 # Constant hash table
 phf = { version = "0.11", features = ["macros"] }
+
+[[bin]]
+name = "stdscore-GUI"
+path = "src/main.rs"
